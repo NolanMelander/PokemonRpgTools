@@ -3,13 +3,12 @@ import TrainerCardCreator as trainer
 
 
 def pokemonrpgtools():
-    version = "VERSION 0.0.1 - ALPHA\n"
-    print("Pokemon Rpg Tools".center(120, "-"))
-    print("Copyright 2019 | All Rights Reserved".center(120, " "))
-    print(version.center(120, " "))
-
     choice = None
     while choice is not 'q':
+        version = "VERSION 0.0.2 - ALPHA\n"
+        print("Pokemon Rpg Tools".center(120, "-"))
+        print("Copyright 2019 | All Rights Reserved".center(120, " "))
+        print(version.center(120, " "))
         print("\n")
         print("Trainer Card Creator (Currently Unavailable)", "(-)".rjust(22, "."))
         print("Kanto Region (Currently Unavailable)", "(-)".rjust(30, "."))

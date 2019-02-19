@@ -16,9 +16,9 @@ def registertrainer():
 
 def trainercardcreator():
     version = "VERSION 0.0.1 - ALPHA\n"
-    print("Trainer Card Creator".center(60, "-"))
-    print("Copyright 2019 | All Rights Reserved".center(60, " "))
-    print(version.center(60, " "))
+    print("Trainer Card Creator".center(120, "-"))
+    print("Copyright 2019 | All Rights Reserved".center(120, " "))
+    print(version.center(120, " "))
 
     choice = input("Hello there! Would you like to register a new trainer, and enter the world of pokémon (y/n)? ")
 
