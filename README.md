@@ -9,6 +9,12 @@ Pokemon Rpg Tools will  provide several tools centered around the pokemon game.
 ## Update Notes
 * Fixed several typos
 * Began framework for the Trainer Card Creator (0.0.1 - Alpha) and Route Generator (0.0.1 - Alpha)
+
+##Feature Versions
+* Trainer Card Creator - V 0.0.1 - Alpha
+* Route Generator - V 0.0.1 - Alpha
+* Pokemon Generator - v 0.0.1 - Alpha
+
 ## Future Features
 
 These and other features are currently planned for Pokemon Rpg Tools
@@ -16,4 +22,5 @@ These and other features are currently planned for Pokemon Rpg Tools
 * Create a trainer card
 * Battle Simulator
 * Pokemon Generator
-* Route Searcher
+* Route Generator
+* Create a random trainer (w/ pokemon)
