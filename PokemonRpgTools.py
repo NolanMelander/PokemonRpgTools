@@ -1,6 +1,6 @@
 import KantoRouteGenerator as kanto
 import TrainerCardCreator as trainer
-
+import PokemonStatGenerator as pokemon
 
 def pokemonrpgtools():
     choice = None
@@ -22,6 +22,8 @@ def pokemonrpgtools():
         elif choice is 'k':
             assert choice is 'k'
             kanto.kantoroutecreator()
+        elif choice is 'p':
+            pokemon.pokemonstatsgenerator()
         elif choice is not 'q':
             assert choice is not 'q'
             print("Invalid input. Please try again.")
