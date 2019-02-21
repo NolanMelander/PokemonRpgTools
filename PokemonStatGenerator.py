@@ -1,16 +1,19 @@
 import os
+import db
+import quantumrandom as qr
 
-def getstats():
-    pokemon = input("Please enter the name of the pokemon: ")
-    lvl = input("Please enter the level of the pokemon: ")
-    hp = input("Please enter base hp stat for " + pokemon + ": ")
-    at = input("Please enter base attack stat for " + pokemon + ": ")
-    deff = input("Please enter base defense stat for " + pokemon + ": ")
-    spa = input("Please enter base special attack stat for " + pokemon + ": ")
-    spd = input("Please enter base special defense stat for " + pokemon + ": ")
-    spe = input("Please enter base special defense stat for " + pokemon + ": ")
 
-    return pokemon, lvl, hp, at, deff, spa, spd
+def display():
+    pass
+
+
+def getiv():
+    base = [0, 0, 0, 0, 0, 0]
+    for x in range(6):
+        base[x] = int(qr.randint(0, 35))
+
+    return base
+
 
 def pokemonstatsgenerator():
     version = "VERSION 0.0.1 - ALPHA\n"
@@ -19,9 +22,21 @@ def pokemonstatsgenerator():
     print(version.center(120, " "))
     print("\n")
 
-    pokemon = lvl = hp = at = deff = spa = spd = spe = getstats()
+    pokemon = pokedex = hp = attack = defense = spa = spd = speed = None
 
+    base = db.getStats()
 
-    print(pokemon, lvl, hp, at, deff, spa, spd)
+    for row in base:
+        pokemon = (row[0])
+        pokedex = (row[1])
+        hp = (row[2])
+        attack =(row[3])
+        defense =(row[4])
+        spa =(row[5])
+        spd =(row[6])
+        speed =(row[7])
+
+    base = getiv()
 
     os.system("pause")
+
