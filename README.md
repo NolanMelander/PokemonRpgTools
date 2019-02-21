@@ -7,8 +7,7 @@ Created by Nolan Melander
 Pokemon Rpg Tools will  provide several tools centered around the pokemon game.
 
 ## Update Notes
-* Fixed several typos
-* Began framework for the Trainer Card Creator (0.0.1 - Alpha) and Route Generator (0.0.1 - Alpha)
+* Added a database to project allowing the removal of many planned globals.
 
 ##Feature Versions
 * Trainer Card Creator - V 0.0.1 - Alpha
