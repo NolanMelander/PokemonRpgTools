@@ -5,14 +5,14 @@ import PokemonStatGenerator as pokemon
 def pokemonrpgtools():
     choice = None
     while choice is not 'q':
-        version = "VERSION 0.0.2 - ALPHA\n"
+        version = "VERSION 0.0.3 - ALPHA\n"
         print("Pokemon Rpg Tools".center(120, "-"))
         print("Copyright 2019 | All Rights Reserved".center(120, " "))
         print(version.center(120, " "))
         print("\n")
         print("Trainer Card Creator (Pre Alpha)", "(t)".rjust(22, "."))
         print("Kanto Region (Pre Alpha)", "(k)".rjust(30, "."))
-        print("Pokemon Stat Generator (Currently Unavailable)", "(-)".rjust(20, "."))
+        print("Pokemon Stat Generator (Beta)", "(p)".rjust(20, "."))
         print("Quit Pokemon Rpg Tools", "(q)".rjust(44, "."))
         choice = input("\nPlease pick a program to load: ")
 
