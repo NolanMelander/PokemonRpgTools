@@ -6,7 +6,7 @@ def getnature():
     connection = c.connect()
     random = int(qr.randint(0, 24))
     cursor = connection.cursor()
-    sql = 'Select * from Natures where Nature=%s'
+    sql = 'Select * from Natures where Value=%s'
     cursor.execute(sql, (random,))
     rec = cursor.fetchall()
 
