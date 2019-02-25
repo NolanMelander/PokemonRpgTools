@@ -1,5 +1,5 @@
 # Pokemon Rpg Tools
-##### VERSION 0.0.3 - ALPHA
+##### VERSION 0.0.4 - ALPHA
 Created by Nolan Melander
 
 ## About
@@ -7,20 +7,21 @@ Created by Nolan Melander
 Pokemon Rpg Tools will  provide several tools centered around the pokemon game.
 
 ## Update Notes
-* Fixed sql statement. It was trying to compare wrong values.
-* Finished most of the code for Pokemon Generator, display is only feature that needs work.
+* Updated sql statement to check amount of rows then determine random number from that value.
+* Added a display function to take over displaying information for Trainer Card Creator.
+* Pokemon Trainer Card returns list of available pokemon, using same database call as getStats(). 
 
 ##Feature Versions
-* Trainer Card Creator - V 0.0.1 - Alpha
+* Trainer Card Creator - V 0.1.0 - Beta
 * Route Generator - V 0.0.1 - Alpha
 * Pokemon Generator - v 0.1.0 - Beta
 
 ## Future Features
 
-These and other features are currently planned for Pokemon Rpg Tools
+These and other features are currently planned for Pokemon Rpg Tools along with their current status in development.
 
-* Create a trainer card
-* Battle Simulator
-* Pokemon Generator
-* Route Generator
-* Create a random trainer (w/ pokemon)
+* Create a trainer card - Display Needs Optimized
+* Battle Simulator - Not Started
+* Pokemon Generator - Display Needs Optimized, Need to add option to manually enter IV
+* Route Generator - In Progress (Reworking system, to replace current one)
+* Create a random trainer (w/ pokemon) - Not Started
