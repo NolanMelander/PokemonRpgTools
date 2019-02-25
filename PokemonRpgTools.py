@@ -10,10 +10,10 @@ def pokemonrpgtools():
         print("Copyright 2019 | All Rights Reserved".center(120, " "))
         print(version.center(120, " "))
         print("\n")
-        print("Trainer Card Creator (Pre Alpha)", "(t)".rjust(22, "."))
-        print("Kanto Region (Pre Alpha)", "(k)".rjust(30, "."))
+        print("Trainer Card Creator (Beta)", "(t)".rjust(22, "."))
+        print("Kanto Region (Alpha - Being Reworked)", "(k)".rjust(12, "."))
         print("Pokemon Stat Generator (Beta)", "(p)".rjust(20, "."))
-        print("Quit Pokemon Rpg Tools", "(q)".rjust(44, "."))
+        print("Quit Pokemon Rpg Tools", "(q)".rjust(27, "."))
         choice = input("\nPlease pick a program to load: ")
 
         if choice is 't':
