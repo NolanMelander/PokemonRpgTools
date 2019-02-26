@@ -52,13 +52,24 @@ def pokemonstatsgenerator():
     print(version.center(120, " "))
     print("\n")
 
+    choice = None
+    natdex = None
+    choice = input("Randomly generate pokemon (y/n)? ")
+
+    if choice is 'y':
+        natdex = input("Please input the National Pokedex number of Pokemon: ")
+
     ev = [0, 0, 0, 0, 0, 0]
     lvl = input("Please enter desired pokemon level:")
 
 
     print("Generating pokemon. This may take a few minutes. Please wait...")
 
-    base = db.getstats()
+    if choice is None:
+        assert(choice is None)
+        base = db.getstats()
+    else:
+        base = db.getstats(int(natdex))
 
     pokemon = None
     pokedex = None
