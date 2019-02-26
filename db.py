@@ -30,10 +30,18 @@ def getnature():
     return rec
 
 
-def getstats():
+def getstats(choice=None):
     rows = getrows()
+
     connection = c.connect()
-    random = int(qr.randint(1, rows))
+    if choice is None:
+        assert(choice is None)
+        random = int(qr.randint(1, rows))
+    else:
+        assert(choice is not None)
+        assert(choice <= rows)
+        random = choice
+
     cursor = connection.cursor()
     sql = 'Select * from Stats where `National Dex`=%s'
     cursor.execute(sql, (random,))
