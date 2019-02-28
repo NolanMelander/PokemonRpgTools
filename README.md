@@ -7,9 +7,7 @@ Created by Nolan Melander
 Pokemon Rpg Tools will  provide several tools centered around the pokemon game.
 
 ## Update Notes
-* Updated sql statement to check amount of rows then determine random number from that value.
-* Added a display function to take over displaying information for Trainer Card Creator.
-* Pokemon Trainer Card returns list of available pokemon, using same database call as getStats(). 
+* Started rework of the route generator system.
 
 ##Feature Versions
 * Trainer Card Creator - V 0.1.0 - Beta
